@@ -7,7 +7,7 @@
 
 1. `bundle exec rake new_post[Post Title]`
 1. Write contents to `source/_posts/YYYY-MM-DD-post-title.markdown`
-1. `bundle exec rake preview`
+1. `bundle exec rake preview` and view http://localhost:4000/
 1. `git add . && git ci -m "Add new post"`
 1. `bundle exec rake deploy`
 
