@@ -1,3 +1,16 @@
+## How to start
+
+1. `git clone git@github.com:mrtaddy/tech-octopress.git`
+1. `bundle install`
+
+## How to write blog post
+
+1. `bundle exec rake new_post[Post Title]`
+1. Write contents to `source/_posts/YYYY-MM-DD-post-title.markdown`
+1. `bundle exec rake preview`
+1. `git add . && git ci -m "Add new post"`
+1. `bundle exec rake deploy`
+
 ## Documentation
 
 Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
