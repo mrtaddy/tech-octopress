@@ -1,0 +1,3 @@
+[submodule ".themes/constant-cockles"]
+	path = .themes/constant-cockles
+	url = git://github.com/octothemes/constant-cockles.git
