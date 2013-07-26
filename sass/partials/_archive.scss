@@ -5,6 +5,7 @@
   article {
     padding: 1em 0 1em;
     position: relative;
+    border: none;
     background: $img-border bottom left repeat-x;
     &:last-child {
       background: none;

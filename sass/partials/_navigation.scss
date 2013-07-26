@@ -1,17 +1,29 @@
-body > nav {
+nav {
   position: relative;
-  background-color: $nav-bg;
   @include background($nav-bg-front, $nav-bg-back);
-  border: {
-    top: 1px solid $nav-border-top;
-    bottom: 1px solid $nav-border-bottom; }
+  background-color: $nav-bg;
   padding-top: .35em;
   padding-bottom: .35em;
+
+  @extend .group;
+  max-width: $max-width - 2 * ($pad-min);
+  @media only screen and (min-width: 480px) {
+      max-width: $max-width - 2 * ($pad-narrow);
+  }
+  @media only screen and (min-width: 768px) {
+      max-width: $max-width - 2 * ($pad-medium);
+  }
+  @media only screen and (min-width: 992px) {
+      max-width: $max-width - 2 * ($pad-wide);
+  }
+
+  margin: 0 auto;
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
     .search {
       padding: .3em .5em 0;
+      margin: .2em 0 0 0;
       font-size: .85em;
       font-family: $sans;
       line-height: 1.1em;
@@ -19,9 +31,9 @@ body > nav {
       @include border-radius(.5em);
       @include background-clip(padding-box);
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
-      background-color: lighten($nav-bg, 15);
+      background-color: lighten($nav-bg, 35);
       border: 1px solid $nav-border;
-      color: #888;
+      color: #ddd;
       &:focus {
         color: #444;
         border-color: #80b1df;
@@ -37,7 +49,7 @@ body > nav {
   }
   ul { display: none; }
   @media only screen and (min-width: 550px) {
-    font-size: .9em;
+    font-size: 1.1em;
     ul {
       @include horizontal-list(0);
       float: left;
@@ -98,7 +110,7 @@ body > nav {
   }
 }
 .no-placeholder {
-  body > nav .search {
+  nav .search {
     background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;
     text-indent: 1.3em;
   }
@@ -118,7 +130,7 @@ body > nav {
   &:hover:after { background-color: lighten($nav-color, 20); }
 }
 .maskImage {
-  body > nav {
+  nav {
     @media only screen and (min-width: 550px) {
       ul[data-subscription$=email] + form {
         width: $sidebar-width-medium - $pad-medium*2 - $sidebar-pad-medium - 32px;
@@ -135,3 +147,6 @@ body > nav {
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
 
+#navigation {
+    background-color: $nav-bg;
+}

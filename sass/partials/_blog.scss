@@ -1,6 +1,7 @@
 article {
-  padding-top: 1em;
+  padding-top: 2em;
   a { @extend .force-wrap; }
+  background: $main-bg;
   header {
     position: relative;
     padding-top: 2em;
@@ -83,13 +84,16 @@ article {
 
 }
 article + article {
-  .blog-index & {
-    background: $img-border top left repeat-x;
-  }
+    .blog-index & {
+	background: $img-border top left repeat-x;
+    }
 }
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
-  article { padding-top: 2em; }
+  article {
+      padding-top: 2em;
+      background: $main-bg;
+  }
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
@@ -107,7 +111,7 @@ article + article {
     &:hover {
       background: $link-color-hover;
       text-shadow: none;
-      color: $main-bg;
+      color: main-bg;
     }
   }
   footer {
@@ -138,4 +142,8 @@ article + article {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }
     }
   }
+}
+
+#content > div {
+  padding: 0;
 }
