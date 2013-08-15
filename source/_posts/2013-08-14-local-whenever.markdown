@@ -8,7 +8,13 @@ categories:
 ---
 こんにちは。さねまつです。
 
-ローカルのcrontab, 特に管理してなくてうっかり消しました。wheneverで書いてリポジトリ管理しておくとうれしいですね。
+ローカルのcrontab, 特に管理してなくてうっかり消しました。
+
+### crontab
+
+![crontab](/images/alarm_400x267.jpg 'alarm')
+
+wheneverで書いてリポジトリ管理しておくとうれしいですね。
 
 ```ruby
 every :weekday, at: '10:15 am' do
