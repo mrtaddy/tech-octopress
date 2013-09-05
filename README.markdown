@@ -1,7 +1,9 @@
 ## How to start
 
 1. `git clone git@github.com:mrtaddy/tech-octopress.git`
+1. `cd tech-octopress`
 1. `bundle install`
+1. `git clone git@github.com:mrtaddy/omg-tech.git _deploy`
 
 ## How to write blog post
 
