@@ -33,7 +33,8 @@ branches:
     - master
 ```
 
-サービスレベルで実運用してる`.travis.yml`見たいので、他にもご存知でしたらpull requestください。
+サービスレベルで実運用してる`.travis.yml`見たいですよね!!!
+他にもご存知でしたらpull requestください。
 https://github.com/sanemat/soryu
 
 ![soryu](/images/submarine_400x300.jpg 'soryu')
