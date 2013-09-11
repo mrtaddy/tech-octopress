@@ -33,7 +33,11 @@ branches:
     - master
 ```
 
-サービスレベルで実運用してる`.travis.yml`見たいですよね!!!
+サービスレベルで実運用してる`.travis.yml`見たいですよね!!! 観測範囲だとこのぐらい。
+
+- [ITエンジニア向け質問・回答コミュニティ - QA@IT](http://qa.atmarkit.co.jp/) [travis](https://github.com/sanemat/soryu/blob/38cf21326f1515552f8f981398974e9af844976a/qa.atmarkit.co.jp.travis.yml)
+- [starseeker](http://starseeker.so/) [travis](https://github.com/sanemat/soryu/blob/38cf21326f1515552f8f981398974e9af844976a/starseeker.so.travis.yml)
+
 他にもご存知でしたらpull requestください。
 https://github.com/sanemat/soryu
 
