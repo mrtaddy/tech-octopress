@@ -90,6 +90,8 @@ webで売る→おわり
 
 継ぎ接ぎなんだけど、数年後の完成形に向けてバランスよくしていく
 
-まとめると、まだまだ立ち上げ期だから面白いんじゃないかな! [We're Hiring!](http://www.mrtaddy.com/recruit)
+Q: エンジニアの役割、だいたいwebできちゃったら、定期的な特集コンテンツや、セールぐらいしかなくなるのでは?
+
+A: そうでもない [We're Hiring!](http://www.mrtaddy.com/recruit)
 
 [![コンプリートコントロール](/images/complete-control_690x512.png)](http://careerhack.en-japan.com/report/detail/202)
