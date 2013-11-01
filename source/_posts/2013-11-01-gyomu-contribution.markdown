@@ -6,7 +6,6 @@ comments: true
 author: sanemat
 categories:
 ---
-# ギョームでもcontribution
 
 こんにちは。さねまつです。ギョームのpull requestを思い出しつつ書いてみた。
 
