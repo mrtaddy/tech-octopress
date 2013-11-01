@@ -10,7 +10,7 @@ categories:
 
 こんにちは。さねまつです。ギョームのpull requestを思い出しつつ書いてみた。
 
-[![github-contributions](https://gist.github.com/sanemat/7201059/raw/github-contributions.gif)](https://github.com/mrtaddy?tab=members)
+[![github-contributions](/images/github-contributions_800x600.gif)](https://github.com/mrtaddy?tab=members)
 
 # contribution事例
 
