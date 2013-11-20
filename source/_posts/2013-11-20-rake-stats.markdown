@@ -44,3 +44,17 @@ $ date
 see: [求人の際に「自社のコードベースがどれくらい健全か」というのをアピールする視点を持つとよいのではないか、と思いました。 - Sooey](http://journal.sooey.com/229)
 
 いや、一番大きいコードベースはWordPressな気もする… [メガネスタイルマガジンOMG PRESS](http://www.ohmyglasses.jp/blog/)
+
+```text
+# wordpress-3.7.1-ja
+$ find . -type f | xargs cat | wc -l
+  338509
+# spree master
+$ find . -type f | xargs cat | wc -l
+  224648
+# omg-mono-app master
+$ find . -type f | xargs cat | wc -l
+  656648
+```
+
+そんなことはなかった。
