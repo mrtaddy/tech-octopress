@@ -11,6 +11,12 @@ categories:
 
 カラーとモノクロをtoggleするbookmarklet書きました。[toggle-monochrome](https://github.com/mrtaddy/toggle-monochrome)
 
+#### インサイト
+
+なるほど〜ってなっただけでそんなになかった。既にちゃんと考えられている!
+
+#### おまけ
+
 [generater-bookmarklet](https://github.com/passy/generator-bookmarklet)がgruntからgulpになってておっってなった。
 
 そしてドヤ顔で同僚に見せに行ったら「アクセシビリティーチェックのそういう拡張あるよ」って教えてもらいました!!なるほど!そっちを使ったらいいと思います。
