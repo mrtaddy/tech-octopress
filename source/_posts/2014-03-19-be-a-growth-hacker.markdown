@@ -43,6 +43,7 @@ optimizely上だけでjQuery書いて差し替える場合と、コードベー�
 一定数の効果が見られる流入を与えて、勝者が出たらviewにちょろちょろっと書いてたcssやjavascriptをあるべき場所に書き直す。
 俺のバリューってoptimizely上でちょろっとjQuery書くそれなの?って思うとアレ?って気がしないでもない。
 
+こんなの。
 ```javascript
 $('body:not(.mobile) .main-header-guide__search').css('display', 'none');
 $('body:not(.mobile) .test-search').css('display', 'block');
@@ -83,6 +84,8 @@ facebook: 10日以内に7人以上の友人と友達になる割合をKPI
 ぼくがabテストを一番うまく扱えるんだ！ex-zyngaですし
 
 ![miner](/images/miner_532x800.jpg)
+
+マーケターやデータマイナーっぽい意識を持ってるとちょうどいいのかも。
 
 ## まとめ
 
