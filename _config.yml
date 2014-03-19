@@ -94,7 +94,7 @@ disqus_short_name: omgtechblog
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-26054485-10
 
 # Facebook Like
 facebook_like: true
