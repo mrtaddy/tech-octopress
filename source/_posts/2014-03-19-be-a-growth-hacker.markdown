@@ -82,6 +82,8 @@ facebook: 10日以内に7人以上の友人と友達になる割合をKPI
 
 ぼくがabテストを一番うまく扱えるんだ！ex-zyngaですし
 
+![miner](/images/miner_532x800.jpg)
+
 ## まとめ
 
 事業を育てるぞ。
