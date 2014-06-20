@@ -16,6 +16,7 @@ categories:
 
 - [travisci](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/travisci.coffee)
 - [airbrake](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/airbrake.coffee)
+- [sebastian](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/sebastian.coffee)
 
 ## kei-sが作ったリスト
 - [deploy-announce](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/deploy-announce.coffee)
