@@ -7,6 +7,7 @@ author: sanemat
 categories:
 ---
 こんにちは。さねまつです。Growth Hackerゆるくクビになって5月半ばからエンジニアに戻ってます。
+
 今`hubot-script`ブームが社内でぼくと1syoだけに吹いてます。さらに、「そろそろちゃんとした使えるものを作ってよ(1syo)」と煽られてます。
 
 [omg-hubot](https://github.com/mrtaddy/omg-hubot)
@@ -24,7 +25,7 @@ categories:
 - [hubot-53cal-jp](https://github.com/sanemat/hubot-53cal-jp)
 - [hubot-google-transliterate](https://github.com/sanemat/hubot-google-transliterate)
 
-たしかに!! しかも一番使えるゴミ収集botは勝手にページスクレイピングしてて怒られるやつだ。まだまだ作るぞ。
+たしかに!! しかも一番使えるゴミ収集情報botは勝手にページスクレイピングしてて怒られるやつだ。まだまだ作るぞ。
 
 # 背景
 
