@@ -46,3 +46,5 @@ categories:
 slackのintegration課金をひとまずすり抜けようと、通知系をhubotに集約してます。
 github, hubot, newrelicの3本に抑えてる。
 さてslackの課金体型変わったらどうしよ?
+
+以上デース
