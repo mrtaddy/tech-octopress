@@ -15,8 +15,10 @@ categories:
 ##1syoが作ったリスト
 
 - [travisci](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/travisci.coffee)
-- [deploy-announce](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/deploy-announce.coffee)
 - [airbrake](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/airbrake.coffee)
+
+## kei-sが作ったリスト
+- [deploy-announce](https://github.com/mrtaddy/omg-hubot/blob/42213d04e91d99034631e0d89958df6ad36ab1e9/scripts/deploy-announce.coffee)
 
 ##ぼくが作ったリスト
 
